@@ -30,3 +30,12 @@ function hideSidebar() {
     }
   }
 }
+
+window.addEventListener("resize", function(){
+  if (window.innerWidth > 800 & document.getElementById("hide_button").innerHTML == "Hide SideBar" ) {
+     document.getElementsByClassName("site-sidebar")[0].style.width = "263px"
+  }
+  if (window.innerWidth < 800 & document.getElementById("hide_button").innerHTML == "Hide SideBar" ) {
+     document.getElementsByClassName("site-sidebar")[0].style.width = "50px"
+  }
+});
