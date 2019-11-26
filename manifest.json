@@ -1,6 +1,6 @@
 {
   "name": "Flatiron Custom View",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "icons": {"16": "learn_16.png",
             "48": "learn_48.png",
