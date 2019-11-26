@@ -22,7 +22,11 @@ function hideSidebar() {
   }
   else {
     button.innerHTML = "Hide SideBar"
-    document.getElementsByClassName("site-sidebar")[0].style.width = "263px";
     document.getElementsByClassName("site-main")[0].style.width = "93%";
+    if (window.innerWidth < 800) {
+       document.getElementsByClassName("site-sidebar")[0].style.width = "50px"
+    }else{
+      document.getElementsByClassName("site-sidebar")[0].style.width = "263px";
+    }
   }
 }
