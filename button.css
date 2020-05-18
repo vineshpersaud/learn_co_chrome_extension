@@ -1,8 +1,26 @@
 #hide_button{
   float: left;
-  color: #fff !important;
+  color: #fff ;
   text-decoration: none;
   background: #00BCE1;
+  padding: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin: 6px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  font-family: "Aktiv Grotesk";
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+#dark_button{
+  float: left;
+  color: #fff ;
+  text-decoration: none;
+  background: #1f2933;
   padding: 8px;
   padding-left: 14px;
   padding-right: 14px;
